@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #151515 url('../images/bg-1.jpg') no-repeat fixed left bottom;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: fantasy;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+
+.heading {
+  position: relative;
+  display: inline-block;
+  margin: 30px 0 15px;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+  font-size: 4rem;
+}
+.heading::before,
+.heading::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid grey;
+}
+.heading::before {
+  bottom: 5px;
+}
+.button {
+  display: inline-block;
+  width: 200px;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 1.7rem;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px 1px red;
+    transition: 0.3s;
+}
+
+
+
+
+.header {
+  padding: 170px 30px 80px;
+}
+.site-title-sub {
+  margin: 0 0 30px;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+}
+.site-title-sub::before,
+.site-title-sub::after {
+  content: '';
+  display: inline-block;
+  width: 140px;
+  height: 2px;
+  margin: 0 30px;
+  background-color: white;
+  vertical-align: middle;
+}
+.site-title {
+  margin: 50px 0 40px;
+  font-size: 7.6rem;
+}
+.site-description {
+  margin-bottom: 50px;
+  color: aliceblue;
+  font-size: 1.6rem;
+}
+.buttons .button {
+  margin: 10px;
+}
+
+
+
+.about {
+  padding: 80px 30px;
+  background-color: white;
+  color: black;
+}
+.about-text {
+  margin: 30px 0;
+  line-height: 2.5;
+}
+
+
+
+
+
+.skills {
+  padding: 80px 0;
+  background-color: black;
+  color: white;
+}
+.skills-wrapper {
+  display: table;
+  width: 80%;
+  margin: 50px auto 0;
+  table-layout: fixed;
+}
+.skill-box {
+  display: table-cell;
+}
+.skill-icon {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 30px;
+  border: 4px solid;
+  border-radius: 50%;
+  color: darkorange;
+  font-size: 8rem;
+  line-height: 142px;
+}
+.skill-icon:hover{
+    background-color: darkorange;
+    color: white;
+    box-shadow: 0 0 10px 3px white;
+    transition: 0.2s;
+}
+.skill-title {
+  margin: 0 20px 20px;
+  font-size: 2rem;
+}
+.skill-text {
+  margin: 0 20px;
+  line-height: 2;
+}
+
+
+a.button3{
+    border-radius: 9px;
+font-size:1.2em;
+display:inline-block;
+width:20%;
+padding-top:15px;
+padding-bottom:15px;
+text-align:center;
+    text-decoration: none;
+border:2px solid;
+border-color: white;
+background:black;
+    color: white;
+}
+a.button3:hover{
+        background-color: white;
+    color: black;
+    box-shadow: 0 0 10px 5px lawngreen;
+    transition: 0.3s;
+}
+
+.footer {
+  padding: 12px 0;
+  font-size: 1.3rem;
+}
